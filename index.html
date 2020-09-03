@@ -4,10 +4,12 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1,
             shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <meta name="description" content="SZTUKATORSTWO. Firma zajmująca się
+            sztukatorstwem. Mirosław Górny. Lokalizajca: Poznań. Usługi
+            sztukatorskie" />
+        <meta name="keywords" content="sztukatorstwo, poznań, górny, poznan,
+            sztukatorstwo-poznan, gorny, sztukatorstwo-górny, sztukator," />
+        <title>Sztukatorstwo Poznań - Sztukatorstwo-poznań.pl</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
             crossorigin="anonymous"></script>
@@ -17,6 +19,17 @@
         <link
             href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
             rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="css/animate.css"
+            />
+        <link
+            rel="stylesheet"
+            href="css/slider.css"
+            />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -49,20 +62,20 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
+                <div class="mx-auto text-center main-title">
                     <h1 class="mx-auto my-0 text-uppercase">Sztukatorstwo</h1>
                     <h2 class="text-white mx-auto mt-2 mb-5">Niezwykła
                         umiejętność, dzięki której wszystko jest możliwe</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Sprawdź</a>
                 </div>
             </div>
         </header>
         <!-- About-->
         <section class="about-section text-center" id="about">
-            <div class="container">
+            <div class="container wow
+                fadeIn">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Tworzone z pasją</h2>
+                        <h2 class="text-white mb-4">Tak się rodzi piękno...</h2>
                         <p class="text-white-50">
                             Sztukatorstwo to elitarne umiejętności budowlane
                             pozwalające odmienić każde wnętrze
@@ -88,7 +101,8 @@
         <section class="projects-section bg-light" id="projects">
             <div class="container">
                 <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5 wow
+                    slideInLeft">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3
                             mb-lg-0" src="assets/img/offer.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
@@ -102,25 +116,57 @@
                                 łuki, wielopoziomowe sufity oraz wiele innych
                                 zestawów dekoracyjnych.</p>
                             <p class="text-black-50 mb-1">Proponujemy szeroką
-                                gamę stylowych i
-                                ponadczasowych form, które w harmonijny sposób
-                                wykończą każde wnętrze nadając mu estetyczny i
-                                reprezentacyjny wygląd.</p>
+                                gamę stylowych i&nbsp;ponadczasowych form, które
+                                w harmonijny sposób
+                                wykończą każde wnętrze nadając mu estetyczny
+                                i&nbsp;reprezentacyjny wygląd.</p>
 
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid"
-                            src="assets/img/1.jpg" alt="" /></div>
+                    <div class="col-lg-6"><!-- Slideshow container -->
+                        <div class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides dissapear">
+                                <img src="/assets/img/slider/4.jpg"
+                                    style="width:100%;">
+                            </div>
+
+                            <div class="mySlides dissapear">
+                                <img src="/assets/img/slider/2.jpg"
+                                    style="width:100%">
+                            </div>
+
+                            <div class="mySlides dissapear">
+                                <img src="/assets/img/slider/3.jpg"
+                                    style="width:100%">
+                            </div>
+                            <div class="mySlides dissapear">
+                                <img src="/assets/img/slider/1.jpg"
+                                    style="width:100%">
+                            </div><div class="mySlides dissapear">
+                                <img src="/assets/img/slider/5.jpg"
+                                    style="width:100%">
+                            </div>
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+
+
+                        <!-- The dots/circles -->
+
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-left">
                                     <h4 class="text-white">
-                                        - Zamek w Rydzynie</h4>
+                                        Poznań ul.&nbsp;Rybaki 20 - parter.</h4>
                                     <p class="mb-0 text-white-50">An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
@@ -141,7 +187,7 @@
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-right">
                                     <h4 class="text-white">
-                                        - Loża Masońska, Poznań, ul. Grobla</h4>
+                                        - Loża Masońska, Poznań, ul.&nbsp;Grobla</h4>
                                     <p class="mb-0 text-white-50">Another
                                         example of a project with its respective
                                         description. These sections work well
@@ -185,7 +231,7 @@
                                     text-center text-lg-right">
                                     <h4 class="text-white">
                                         - Kościół Matki Boskiej Bolesnej,
-                                        Poznań, ul. Głogowska (elewacje)</h4>
+                                        Poznań, ul.&nbsp;Głogowska (elewacje)</h4>
                                     <p class="mb-0 text-white-50">Another
                                         example of a project with its respective
                                         description. These sections work well
@@ -207,7 +253,8 @@
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-left">
                                     <h4 class="text-white">
-                                        - Kamienica, Poznań, ul. Małeckiego 16</h4>
+                                        - Kamienica, Poznań, ul.&nbsp;Małeckiego
+                                        16</h4>
                                     <p class="mb-0 text-white-50">An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
@@ -228,8 +275,8 @@
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-right">
                                     <h4 class="text-white">
-                                        - Villa Historica, Poznań, ul.
-                                        Wyspiańskiego 12. </h4>
+                                        - Villa Historica, Poznań,
+                                        ul.&nbsp;Wyspiańskiego 12. </h4>
                                     <p class="mb-0 text-white-50">Another
                                         example of a project with its respective
                                         description. These sections work well
@@ -267,7 +314,8 @@
         </section>
 
         <!-- Contact-->
-        <section class="contact-section bg-black" id="contact">
+        <section class="contact-section bg-black wow
+            slideInRight" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -275,10 +323,10 @@
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary
                                     mb-2"></i>
-                                <h4 class="text-uppercase m-0">Addres</h4>
+                                <h4 class="text-uppercase m-0">Adres</h4>
                                 <hr class="my-4" />
                                 <div class="small text-black-50">Mirosław Górny<br>
-                                    ul. Konarzewska 24<br>
+                                    ul.&nbsp;Konarzewska 24<br>
                                     60-101 Poznań</div>
                             </div>
                         </div>
@@ -289,17 +337,21 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50 text-primary"><a href="#!">miroslawgorny7@o2.pl</a></div>
+                                <div class="small text-black-50 text-primary"><a
+                                        class="footer-link"
+                                        href="#!">miroslawgorny7@o2.pl</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Telefon</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">+48 601 757 789</div>
+                                <div class="small text-black-50 text-primary"><a
+                                        class="footer-link"
+                                        href="#!">+48 601 757 789</a></div>
                             </div>
                         </div>
                     </div>
@@ -308,7 +360,10 @@
         </section>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div
-                class="container">Copyright © Jelly Solutions</div></footer>
+                class="container"> Created by <a class="footer-link"
+                    href="jelly.solutions"
+                    target="_blank" style="text-decoration: none !important;"><em>Jelly
+                        Solutions</em></a></div></footer>
         <!-- Bootstrap core JS-->
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -319,5 +374,10 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+              new WOW().init();
+              </script>
     </body>
 </html>
