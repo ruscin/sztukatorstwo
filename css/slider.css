@@ -57,7 +57,7 @@
 }
 
 /* Hide the slides by default */
-.mySlides {
+.singleSlide {
   display: none;
 }
 
@@ -124,10 +124,10 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.mySlides {
+.singleSlide {
     max-height: 95vh;
 }
-.mySlides img {
+.singleSlide img {
     max-width:100%;
     max-height:95vh;
     object-fit: cover;

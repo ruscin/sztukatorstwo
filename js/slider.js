@@ -1,6 +1,14 @@
 // Open the Modal
+let currentModal = 1;
+
+checkModal = (id) => {
+  const clickedModal = Number(id[id.length - 1]);
+  currentModal = clickedModal;
+};
+
 function openModal(id) {
   document.getElementById(id).style.display = "block";
+  checkModal(id);
 }
 
 // Close the Modal
@@ -8,7 +16,7 @@ function closeModal(id) {
   document.getElementById(id).style.display = "none";
 }
 
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -22,10 +30,11 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
+  let i;
+
+  const slides = document.getElementsByClassName(
+    "mySlides" + String(currentModal)
+  );
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -35,9 +44,6 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
 
+  slides[slideIndex - 1].style.display = "block";
 }
