@@ -6714,7 +6714,7 @@ button.bg-dark:focus {
 }
 
 .bg-black {
-  background-color: #adada6 !important;
+  background-color: #c1c1b1 !important;
 }
 
 a.bg-black:hover,
@@ -10437,7 +10437,7 @@ a.text-black:focus {
 }
 
 .text-body {
-  color: #adada6 !important;
+  color: #c1c1b1 !important;
 }
 
 .text-muted {
@@ -10859,7 +10859,7 @@ body {
   padding: 5rem 0;
 }
 .footer-link {
-  color: rgba(255, 255, 255, 1) !important;
+  color: rgba(0, 0, 0, 1) !important;
   transition: 0.3s;
   text-decoration: none !important;
 }

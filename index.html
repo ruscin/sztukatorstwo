@@ -131,17 +131,16 @@
                     <div class="col-lg-6 cusrsor-pointer"><!-- Slideshow container -->
                         <img class="img-fluid"
                             src="assets/img/slider/1.jpg" alt=""
-                            onclick="openModal();currentSlide(1)" />
-
+                            onclick="openModal('modal1');currentSlide(1)" />
                     </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-left">
-                                    <h4 class="text-white">
+                                    <h4 class="text-black">
                                         Poznań ul.&nbsp;Rybaki 20 - parter.</h4>
-                                    <p class="mb-0 text-white">An example of
+                                    <p class="mb-0 text-black">An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
                                         description.
@@ -151,7 +150,7 @@
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                     <br>
                                     <button class="btn"
-                                        onclick="openModal();currentSlide(1)">zobacz
+                                        onclick="openModal('modal1');currentSlide(1)">zobacz
                                         więcej</button>
                                 </div>
                             </div>
@@ -161,16 +160,16 @@
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-6"><img class="img-fluid"
-                            onclick="openModal();currentSlide(6)"
+                            onclick="openModal('modal2');currentSlide(1)"
                             src="assets/img/slider/6.jpg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-right">
-                                    <h4 class="text-white">
+                                    <h4 class="text-black">
                                         Pałac pod Poznaniem</h4>
-                                    <p class="mb-0 text-white">Another
+                                    <p class="mb-0 text-black">Another
                                         An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
@@ -179,7 +178,7 @@
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                     <br>
                                     <button class="btn"
-                                        onclick="openModal();currentSlide(6)">zobacz
+                                        onclick="openModal('modal2');currentSlide(1)">zobacz
                                         więcej</button>
                                 </div>
                             </div>
@@ -195,9 +194,9 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-left">
-                                    <h4 class="text-white">
-                                        - Pałac w Lubstowie</h4>
-                                    <p class="mb-0 text-white">An example of
+                                    <h4 class="text-black">
+                                        Pałac w Lubstowie</h4>
+                                    <p class="mb-0 text-black">An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
                                         description.</p>
@@ -216,10 +215,10 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-right">
-                                    <h4 class="text-white">
-                                        - Kościół Matki Boskiej Bolesnej,
+                                    <h4 class="text-black">
+                                        Kościół Matki Boskiej Bolesnej,
                                         Poznań, ul.&nbsp;Głogowska (elewacje)</h4>
-                                    <p class="mb-0 text-white">Another
+                                    <p class="mb-0 text-black">Another
                                         example of a project with its respective
                                         description. These sections work well
                                         responsively as well, try this theme on
@@ -239,10 +238,10 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-left">
-                                    <h4 class="text-white">
-                                        - Kamienica, Poznań, ul.&nbsp;Małeckiego
+                                    <h4 class="text-black">
+                                        Kamienica, Poznań, ul.&nbsp;Małeckiego
                                         16</h4>
-                                    <p class="mb-0 text-white">An example of
+                                    <p class="mb-0 text-black">An example of
                                         where you can put an image of a project,
                                         or anything else, along with a
                                         description.</p>
@@ -261,10 +260,10 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto
                                     text-center text-lg-right">
-                                    <h4 class="text-white">
-                                        - Villa Historica, Poznań,
+                                    <h4 class="text-black">
+                                        Villa Historica, Poznań,
                                         ul.&nbsp;Wyspiańskiego 12. </h4>
-                                    <p class="mb-0 text-white">Another
+                                    <p class="mb-0 text-black">Another
                                         example of a project with its respective
                                         description. These sections work well
                                         responsively as well, try this theme on
@@ -327,59 +326,75 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white"><div
-                class="container">Copyrights © <a class="footer-link"
+        <footer class="footer bg-black small text-center text-black"><div
+                class="container">Copyrights © Created by <a class="footer-link"
                     href="https://www.facebook.com/jelly.solutions/?fref=ts"
                     target="_blank" style="text-decoration: none !important;"><em>Jelly
                         Solutions</em></a></div></footer>
 
 
-        <div id="myModal" class="modal">
-            <span class="close-modal cursor" onclick="closeModal()">&times;</span>
+        <div id="modal1" class="modal">
+            <span class="close-modal cursor" onclick="closeModal('modal1')">&times;</span>
             <div class="modal-content">
 
-                <div class="mySlides my-auto">
-                    <div class="numbertext">1 / 9</div>
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
                     <img src="/assets/img/slider/1.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">2 / 9</div>
+                    <div class="numbertext">2 /5</div>
                     <img src="/assets/img/slider/2.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">3 / 9</div>
+                    <div class="numbertext">3 / 5</div>
                     <img src="/assets/img/slider/3.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">4 / 9</div>
+                    <div class="numbertext">4 / 5</div>
                     <img src="/assets/img/slider/4.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 9</div>
+                    <div class="numbertext">5 / 5</div>
                     <img src="/assets/img/slider/5.jpg" style="width:100%">
                 </div>
 
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div id="modal2" class="modal">
+            <span class="close-modal cursor" onclick="closeModal('modal2')">&times;</span>
+            <div class="modal-content">
+
                 <div class="mySlides">
-                    <div class="numbertext">6 / 9</div>
+                    <div class="numbertext">1 / 4</div>
                     <img src="/assets/img/slider/6.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 9</div>
+                    <div class="numbertext">1 / 4</div>
                     <img src="/assets/img/slider/7.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">8 / 9</div>
+                    <div class="numbertext">1 / 4</div>
                     <img src="/assets/img/slider/8.jpg" style="width:100%">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">9 / 9</div>
+                    <div class="numbertext">1 / 4</div>
                     <img src="/assets/img/slider/9.jpg" style="width:100%">
                 </div>
 
