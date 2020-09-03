@@ -10698,17 +10698,23 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
-.masthead .main-title {
-  margin-top: -300px;
-}
+
 .masthead hr {
   border-color: #e31c23;
   border-width: 0.25rem;
   width: 35rem;
 }
 .masthead h2 {
-  max-width: 20rem;
+  font-family: "Noto Serif", serif;
   font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #e31c23;
+  float: right;
+  min-width: 15rem;
+}
+
+.masthead .main-title{
+  margin-top: -100px;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10727,8 +10733,14 @@ body {
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
+    min-width: 43rem;
+    max-width: 45rem;
+    font-size: 3rem;
+    padding: 6px 0 6px 0;
+    margin-right: 300px;
+  }
+  .masthead .main-title {
+    margin-top: -300px;
   }
 }
 
