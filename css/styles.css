@@ -4308,6 +4308,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -6714,7 +6715,7 @@ button.bg-dark:focus {
 }
 
 .bg-black {
-  background-color: #c1c1b1 !important;
+  background-color: #E3E3E3 !important;
 }
 
 a.bg-black:hover,
@@ -10437,7 +10438,7 @@ a.text-black:focus {
 }
 
 .text-body {
-  color: #c1c1b1 !important;
+  color: #E3E3E3 !important;
 }
 
 .text-muted {
@@ -10622,6 +10623,7 @@ body {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 1);
+    font-family: "Noto Serif", serif;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10716,6 +10718,22 @@ body {
 .masthead .main-title{
   margin-top: -100px;
 }
+.masthead .arrow{
+  border: solid rgb(206, 206, 206);
+  border-width: 0 10px 10px 0;
+  display: block;
+  padding: 10px;
+  position: absolute;
+  bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 49.5%;
+}
+
+.masthead .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -10740,12 +10758,15 @@ body {
     margin-right: 300px;
   }
   .masthead .main-title {
-    margin-top: -300px;
+    margin-top: -400px;
+  }
+  .masthead .arrow{
+    left: 50.5%;
   }
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(
     to bottom,
     #000000 0%,
@@ -10754,12 +10775,12 @@ body {
   );
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+}
+.projects-section {
+  padding: 5rem 0;
 }
 
-.projects-section {
-  padding: 10rem 0;
-}
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -10768,6 +10789,9 @@ body {
 }
 
 @media (min-width: 992px) {
+  .projects-section {
+    padding: 10rem 0;
+  }
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid#e31c23;
@@ -10869,3 +10893,4 @@ body {
 .cusrsor-pointer {
   cursor: pointer;
 }
+
